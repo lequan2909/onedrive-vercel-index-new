@@ -20,7 +20,7 @@ module.exports = {
   title: "Vinfall's Sage Stone",
 
   // The folder that you are to share publicly with onedrive-vercel-index. Use '/' if you want to share your root folder.
-  baseDirectory: '/Public',
+  baseDirectory: '/phim',
 
   // [OPTIONAL] This represents the maximum number of items that one directory lists, pagination supported.
   // Do note that this is limited up to 200 items by the upstream OneDrive API.
@@ -43,9 +43,7 @@ module.exports = {
   // [OPTIONAL] This is where you specify the folders that are password protected. It is an array of paths pointing to all
   // the directories in which you have .password set. Check the documentation for details.
   protectedRoutes: [
-    '/㊙️ Private',
-    '/🎵 Music',
-    '/🥁 Taiko/🎶 TJA/🎵 Real TJA'
+    '/Image'
   ],
 
   // [OPTIONAL] Use "" here if you want to remove this email address from the nav bar.
